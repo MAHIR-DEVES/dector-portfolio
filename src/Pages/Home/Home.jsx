@@ -35,7 +35,7 @@ const Home = () => {
           {/* Logo */}
           <div className="flex items-center">
             <FaClinicMedical className="text-3xl text-blue-600 mr-2" />
-            <span className="text-xl font-bold text-gray-800">Dr. Tehmina</span>
+            <span className="text-xl font-bold text-gray-800">Dr.Tahmina</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -144,15 +144,18 @@ const Home = () => {
                   : 'opacity-0 translate-y-10'
               }`}
             >
-              Dr. Tehmina Akhter
+              Dr.Tahmina Akter
             </h1>
-            <div className="flex items-center mb-6">
-              <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium mr-3 animate-pulse">
-                MBBS, FCPS
+            <div className=" items-center mb-6">
+              <div className=" text-blue-800 rounded-full text-sm font-medium animate-pulse">
+                <span className="px-3 py-1 bg-blue-100 ">
+                  MBBS,CMU,CCD,FCPS (Final part) Gynecologist
+                </span>
               </div>
-              <div className="text-gray-600 flex items-center">
-                <FaHospital className="mr-1 text-blue-500" />
-                Ziaur Rahman Medical College
+              <div className="text-gray-600 flex items-center gap-2 mt-2">
+                <FaHospital className="mr-1 text-blue-500 " size={30} />
+                Experienced in Medicine, Surgery. Sheheed Suhrawardy medical
+                College, Dhaka.
               </div>
             </div>
             <p className="text-lg text-gray-600 mb-8 transition-all duration-1000 delay-200">
@@ -172,7 +175,7 @@ const Home = () => {
           </div>
 
           {/* Enhanced Image Section with Animation */}
-          <div className="md:w-1/2 flex justify-center">
+          <div className="md:w-1/2 flex justify-end">
             <div className="relative">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-2xl transition-all duration-1000 transform hover:scale-105">
                 <img
@@ -277,7 +280,13 @@ const Home = () => {
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-full mr-3 flex items-center justify-center">
-                  <span className="text-blue-600 font-semibold">RA</span>
+                  <span className="text-blue-600 font-semibold">
+                    <img
+                      className="rounded-full"
+                      src="https://cse.iutoic-dhaka.edu/uploads/img/1601107245_1253.jpg"
+                      alt=""
+                    />
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Rahman Ahmed</h4>
@@ -301,7 +310,13 @@ const Home = () => {
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-pink-100 rounded-full mr-3 flex items-center justify-center">
-                  <span className="text-pink-600 font-semibold">FB</span>
+                  <span className="text-pink-600 font-semibold">
+                    <img
+                      className="rounded-full"
+                      src="https://hr.bup.edu.bd/upload/picture/39255.jpg"
+                      alt=""
+                    />
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Fatima Begum</h4>
@@ -320,12 +335,18 @@ const Home = () => {
                 <FaStar />
               </div>
               <p className="text-gray-600 mb-4">
-                "Professional, knowledgeable, and caring. Everything you want in
-                a healthcare provider."
+                "Professional, knowledgeable, trusted, experienced, and caring.
+                Everything you want in a healthcare provider."
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-green-100 rounded-full mr-3 flex items-center justify-center">
-                  <span className="text-green-600 font-semibold">JH</span>
+                  <span className="text-green-600 font-semibold">
+                    <img
+                      className="rounded-full"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDEyTnoLr2tGwTSG-sLP5lgpWNM6nicfN5rJFGtc7-5Ttx7W3SrUAYEf2kxjrIyI-qTuM&usqp=CAU"
+                      alt=""
+                    />
+                  </span>
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">Jamal Hussain</h4>
@@ -357,7 +378,8 @@ const Home = () => {
                   <div>
                     <p className="text-gray-800 font-medium">Address</p>
                     <p className="text-gray-600">
-                      Ziaur Rahman Medical College, Bogra, Bangladesh
+                      Experienced in Medicine, Surgery. Sheheed Suhrawardy
+                      medical College, Dhaka.
                     </p>
                   </div>
                 </div>
@@ -494,14 +516,17 @@ const Home = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
-              <p className="text-gray-300">Ziaur Rahman Medical College</p>
-              <p className="text-gray-300">Bogra, Bangladesh</p>
+              <p className="text-gray-300">
+                Experienced in Medicine, Surgery. Sheheed Suhrawardy medical
+                College, Dhaka.
+              </p>
+              <p className="text-gray-300">Dhaka, Bangladesh</p>
               <p className="text-gray-300">+880 XXXX XXXXXX</p>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
             <p>
-              © {new Date().getFullYear()} Dr. Tehmina Akhter. All rights
+              © {new Date().getFullYear()} Dr.Tahmina Akter. All rights
               reserved.
             </p>
           </div>
