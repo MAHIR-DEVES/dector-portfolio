@@ -18,7 +18,7 @@ import {
 } from 'react-icons/fa';
 
 import Apu from '../../assets/apu.jpg';
-import ContactIcon from '../ContactIcon/ContactIcon';
+import ContactIcon from '../../Components/ContactIcon/ContactIcon';
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
