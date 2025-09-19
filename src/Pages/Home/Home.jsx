@@ -75,10 +75,15 @@ const Home = () => {
 
           {/* Appointment Button */}
           <div className="hidden md:block">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center transition-all duration-300 transform hover:-translate-y-1">
+            <a
+              href="https://wa.me/8801774051784"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center transition-all duration-300 transform hover:-translate-y-1"
+            >
               <FaCalendarAlt className="mr-2" />
-              Book Appointment
-            </button>
+              Book Consultation
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -165,10 +170,16 @@ const Home = () => {
               healthcare with a focus on patient well-being.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center transition-all duration-300 transform hover:-translate-y-1">
+              <a
+                href="https://wa.me/8801774051784"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center transition-all duration-300 transform hover:-translate-y-1"
+              >
                 <FaCalendarAlt className="mr-2" />
                 Book Consultation
-              </button>
+              </a>
+
               <button className="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg transition-all duration-300 transform hover:-translate-y-1">
                 View Services
               </button>
