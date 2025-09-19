@@ -389,7 +389,7 @@ const Home = () => {
                   </div>
                   <div>
                     <p className="text-gray-800 font-medium">Phone</p>
-                    <p className="text-gray-600">+880 XXXX XXXXXX</p>
+                    <p className="text-gray-600">+8801774051784</p>
                   </div>
                 </div>
                 <div className="flex items-center transition-all duration-300 hover:translate-x-2">
@@ -398,7 +398,7 @@ const Home = () => {
                   </div>
                   <div>
                     <p className="text-gray-800 font-medium">Email</p>
-                    <p className="text-gray-600">dr.tehmina@example.com</p>
+                    <p className="text-gray-600">atahmina310@gmail.Com</p>
                   </div>
                 </div>
                 <div className="flex items-center transition-all duration-300 hover:translate-x-2">
@@ -521,7 +521,7 @@ const Home = () => {
                 College, Dhaka.
               </p>
               <p className="text-gray-300">Dhaka, Bangladesh</p>
-              <p className="text-gray-300">+880 XXXX XXXXXX</p>
+              <p className="text-gray-300">+88 01774051784</p>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
