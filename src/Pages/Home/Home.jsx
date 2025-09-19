@@ -18,6 +18,7 @@ import {
 } from 'react-icons/fa';
 
 import Apu from '../../assets/apu.jpg';
+import ContactIcon from '../ContactIcon/ContactIcon';
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -465,6 +466,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <ContactIcon></ContactIcon>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-12">
